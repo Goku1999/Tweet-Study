@@ -63,7 +63,7 @@ public class GUI extends JFrame implements ActionListener
 				if(topic.length()>0)
 				{
 					ArrayList<String> tweets = TweetManager.getTweets(topic);
-					Indico indico = new Indico("0db2a2993369e3d424a6202d37ce93f2");
+					Indico indico = new Indico("XX API Key Here XX");
 					List<Map<Emotion,Double>> result = indico.emotion.predict(tweets).getEmotion();
 					PieChart ob=new PieChart(topic,result);
 					ob.setResizable(false);
