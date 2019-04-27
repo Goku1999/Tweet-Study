@@ -15,7 +15,7 @@ public class TweetManager
 		try
 		{
 			ConfigurationBuilder conf=new ConfigurationBuilder();
-			conf.setDebugEnabled(true).setOAuthConsumerKey("eXontXrTi9oJZF3c8GXDYCE8q").setOAuthConsumerSecret("dQvCWKBFXpptfzIgqA4efLpikIiZElKXuzuXbGZAvtgDRzaNW0").setOAuthAccessToken("387459869-zsX6P1jCKhZxXaZIZ2EuG2Om4EYwgPBGqJ0NKIFv").setOAuthAccessTokenSecret("A6DbNSQD5zeZJJNXOh2GuOdv9Vkx6qlpZJheTfvY3uYXb");
+			conf.setDebugEnabled(true).setOAuthConsumerKey("XX Customer Key Here XX").setOAuthConsumerSecret("XX Customer Secret Key Here XX").setOAuthAccessToken("XX Access Token Here XX").setOAuthAccessTokenSecret("XX Access Token Secret Here XX");
 	        TwitterFactory tf=new TwitterFactory(conf.build());
 	        twitter4j.Twitter twitter=tf.getInstance();
 	        ArrayList<String> tweetList = new ArrayList<String>();
